@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PageAcceuil">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Votre Indice de Masse Corporel (IMC) est : "
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/imcvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VAleur de imc a ajouter %"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/textimc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TEXT PROVENANT DE IP SELON LE  POURCENTAGE DE IMC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Votre Indice de Matiere Grasse (IMG) est : "
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/indicematieregrassevalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VAleur de IMG a ajouter %"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/textimg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TEXT PROVENANT DE IP SELON LE  POURCENTAGE DE IMG" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Votre Metabolisme de base  (MB) est :"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/metabolismebasevalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Valeur de MB a ajouter (calories)"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/textmb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TEXT PROVENANT DE API MB" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Votre Besoin Energetique Journalier est : "
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/besoinenergetiquejournaliervalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Valeur de BEJ  a ajouter (calories)"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/textbesoinenergetiquejour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TEXT PROVENANT DE IP info BEJ General" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Votre Besoin proteine de la journee est :"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/besoinproteinejournaliervalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VAleur de BPJ a ajouter (grammes x kilo)"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/textbesoinproteinejour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TEXT PROVENANT DE IP Info general proteine" />
+
+            <Button
+                android:id="@+id/btnaccesmenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voicie Votre Menu nutritionel" />
+            <Button
+                android:id="@+id/btnajoutersuivie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ajoutez un suivie " />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page_demarage_inscription"
+    android:background="#A9000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/textView_inscriprtion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:text="Inscrivez Vous" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/img_mail"
+            android:layout_width="150px"
+            android:layout_marginTop="30px"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="50px"
+            android:scaleType="fitStart"
+            android:src="@drawable/logo_mail" />
+
+        <EditText
+            android:id="@+id/editTxt_mail"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:hint="Entrez votre Mail"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/img_cadena"
+            android:layout_width="56dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="50px"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@drawable/logo_cadena" />
+
+        <EditText
+            android:id="@+id/editTxt_passWord"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:hint="Entrez Un Mot de Passe"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:orientation="vertical"
+        android:layout_weight="5">
+
+        <Button
+            android:id="@+id/btn_continuer_vers_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Continuer"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/btn_precedent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Precedent"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TP_HealthyFit</string>
+
+    <string-array name="TypeDeSport">
+        <item>Sport esthetiques</item>
+        <item>Sport endurance</item>
+        <item>Sport de puissance</item>
+        <item>Maintien de masse musculaire</item>
+        <item>Developpement de masse musculaire</item>
+    </string-array>
+
+</resources>

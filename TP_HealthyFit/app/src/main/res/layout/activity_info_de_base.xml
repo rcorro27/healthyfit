@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_de_base">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mes informations de base"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+        <Spinner
+            android:id="@+id/hauteur_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+
+        <EditText
+            android:id="@+id/hauteur_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hauteur"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <Spinner
+                android:id="@+id/poids_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <EditText
+                android:id="@+id/poids_ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Poids"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="Type de sport:"
+                android:gravity="center_vertical"
+                android:layout_weight="25"/>
+            <Spinner
+                android:id="@+id/type_de_sport_Spinner"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="Intensite:"
+                android:gravity="center_vertical"
+                android:layout_weight="25"/>
+            <Spinner
+                android:id="@+id/intensite_Spinner"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nbSeance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de seance"
+            android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/duree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Duree de la seance"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start_healthy_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Healthy"
+            android:textSize="20dp"
+            android:background="#040"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
